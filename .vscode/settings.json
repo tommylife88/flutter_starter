@@ -1,0 +1,50 @@
+{
+    "debug.openDebug": "openOnDebugBreak",
+
+    "dart.previewFlutterUiGuides": true,
+    "dart.previewFlutterUiGuidesCustomTracking": true,
+    "dart.closingLabels": true,
+
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [80],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false,
+   },
+
+    // CMakeの設定を表示させない
+   "cmake.configureOnOpen": false,
+
+    // 以下は、FVMを使う場合に必要
+    // Flutter SDK for FVM
+    "dart.flutterSdkPath": ".fvm/flutter_sdk",
+    // Remove .fvm files from search
+    "search.exclude": {
+        "**/.fvm": true
+    },
+    // Remove from file watching
+    "files.watcherExclude": {
+        "**/.fvm": true
+    },
+
+    // TODO ハイライト
+    "todohighlight.isEnable": true,
+    "todohighlight.isCaseSensitive": true,
+    "todohighlight.keywordsPattern": "TODO:|FIXME:|TODO\\(.*\\):|FIXME\\(.*\\):",
+    "todohighlight.include": [
+        "**/*.dart"
+    ],
+    "todohighlight.exclude": [
+        "**/.dart_tool/**",
+        "**/.fvm/**",
+        "**/.idea/**",
+        "**/.vscode/**",
+        "**/android/**",
+        "**/build/**",
+        "**/ios/**",
+    ],
+}
