@@ -47,8 +47,8 @@ android {
         applicationId "tommylife88.flutter_starter"
         // You can update the following values to match your application needs.
         // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-build-configuration.
-        minSdkVersion flutter.minSdkVersion
-        targetSdkVersion flutter.targetSdkVersion
+        minSdkVersion 24 // Android 7.0
+        targetSdkVersion 31 // see: https://developer.android.com/distribute/best-practices/develop/target-sdk?hl=ja
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
     }
@@ -64,8 +64,4 @@ android {
 
 flutter {
     source '../..'
-}
-
-dependencies {
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 }
