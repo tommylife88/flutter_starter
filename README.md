@@ -19,6 +19,10 @@ IDEとして、[Visual Studio Code](https://code.visualstudio.com/)を使用す�
 * 拡張機能 … [.vscode/extensions.json](.vscode/extensions.json)
 * ワークスペース設定 … [.vscode/settings.json](.vscode/settings.json)
 
+## インストール済みのパッケージ
+
+* [pedantic_mono](https://pub.dev/packages/pedantic_mono)
+
 ## Getting Started
 
 ```
